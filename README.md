@@ -15,14 +15,24 @@ The event log contains activities of a smart home.
 ## Results
 
 Alpha Miner Process model  
-![Alpha Miner](C:\Users\Xrhstos\Desktop\process_mining_readme\alpha.png?raw=true)
+
+![Alpha Miner](https://github.com/ChrisTs8920/process-mining-py/blob/main/output/alpha.png?raw=true)
 
 Heuristics Miner Process model  
-![Heuristics Miner](C:\Users\Xrhstos\Desktop\process_mining_readme\heuristics.png?raw=true)
+
+![Heuristics Miner](https://github.com/ChrisTs8920/process-mining-py/blob/main/output/heuristics.png?raw=true)
 
 Inductive Miner Process model  
-![Inductive Miner](C:\Users\Xrhstos\Desktop\process_mining_readme\inductive.png?raw=true)
 
-Evaluations
+![Inductive Miner](https://github.com/ChrisTs8920/process-mining-py/blob/main/output/inductive.png?raw=true)
 
-(Array)
+### Evaluations
+
+| |fitness | precision | generaliztion | simplicity |
+|-|--------|-----------|---------------|------------|
+| Alpha miner unfiltered log | 0.38 | 0.02 | 0.89 | 1.0 |
+| Alpha miner filtered log | 0.66 | 0.02 | 0.89 | 1.0 |
+| Heuristic miner unfiltered log | 0.95 | 0.31 | 0.69 | 0.51 |
+| Heuristic miner filtered log | 0.94 | 0.31 | 0.71 | 0.52 |
+| Inductive miner unfiltered log | 0.98 | 0.15 | 0.87 | 0.64 |
+| Inductive miner filtered log  | 0.98 | 0.15 | 0.88 | 0.64 |
