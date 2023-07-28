@@ -1,5 +1,7 @@
 # Process mining - Python and pm4py
 
+## Description
+
 This process mining project discovers the process model of an event log using the process mining algorithms **Alpha Miner**, **Heuristics Miner** and **Inductive Miner**.  
 After discovering the process models, it performs evaluation, finding it's fitness, precision, generalization and simplicity values.  
 Lastly it performs conformance checking using the Replay Fitness method. Conformance checking compares the discovered model with the actual event log to identify possible deviations and potential bottlenecks.  
