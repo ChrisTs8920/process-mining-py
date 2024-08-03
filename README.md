@@ -7,7 +7,7 @@ After discovering the process models, it performs evaluation, finding it's fitne
 Lastly it performs conformance checking using the Replay Fitness method. Conformance checking compares the discovered model with the actual event log to identify possible deviations and potential bottlenecks.  
 The event log contains activities of a smart home.
 
-*This project was made during my Intelligent Systems course in University.*
+>*This project was made during my Intelligent Systems course in University.*
 
 ## How to run
 
